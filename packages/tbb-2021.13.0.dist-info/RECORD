@@ -1,0 +1,13 @@
+../../Library/bin/tbb12.dll,sha256=CeT-ZJ3oLF0slUOthp4uwldw7nITgmE5eWezkw70Q5g,320520
+../../Library/bin/tbbbind.dll,sha256=yYpL-Y3oi8cM-8g_OhUcOtfq9ed7-qS1JAmfFeEL6gk,47624
+../../Library/bin/tbbbind_2_0.dll,sha256=6qmWFy6ZfXo-t8bQR1VPP2GmaONPzX-WZIFJJdS6aBI,47624
+../../Library/bin/tbbbind_2_5.dll,sha256=MqPLe8y9ZpVKSujUG9uTx4sKOXRW90m6ajoaAP1EhL4,48648
+../../Library/bin/tbbmalloc.dll,sha256=EsK05bcoQzhGnYGLsSBexPOkA3aVUGVNWFqCdGmG-fc,138248
+../../Library/bin/tbbmalloc_proxy.dll,sha256=Xo1SgXMAWKuCQd9dijU6oANzTkzcaNmHDf-4vrOoF3c,83464
+../../Library/share/doc/tbb/licensing/third-party-programs.txt,sha256=zOtodw5kH8ME2790-52oxaWocWtdDTMfzyVNIPr29Ks,19827
+tbb-2021.13.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+tbb-2021.13.0.dist-info/LICENSE.txt,sha256=dyFjPQ3f9D-uJev9QF-BZqDOcwy87ETy862dXrismm8,4105
+tbb-2021.13.0.dist-info/METADATA,sha256=-gN6ZHCoB4dqjRAfcN5OJuEy7u0c4EAYGQ44obhTdt8,1117
+tbb-2021.13.0.dist-info/RECORD,,
+tbb-2021.13.0.dist-info/WHEEL,sha256=at4xwl6JdXdkZHxdo5ixTwJ7ENtVftSy2wqmsdmo_4U,98
+tbb-2021.13.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1

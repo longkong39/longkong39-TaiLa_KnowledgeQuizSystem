@@ -1,0 +1,30 @@
+title: 泰拉知识问答系统
+version: 1.0.0
+
+LLMPath: models/llm
+upload_dir: tmp
+
+upload_dir: tmp
+db_save_path: db_base
+
+top_k: 5
+
+Parameter:
+  max_length:
+    min_value: 0
+    max_value: 4096
+    default: 1024
+    step: 1
+    tip: 生成结果时的最大token数
+  top_p:
+    min_value: 0.0
+    max_value: 1.0
+    default: 0.7
+    step: 0.01
+    tip: 用于控制模型生成文本时，选择下一个单词的概率分布的范围。
+  temperature:
+    min_value: 0.01
+    max_value: 1.0
+    default: 0.01
+    step: 0.01
+    tip: 用于调整模型生成文本时的创造性程度，较高的temperature将使模型更有可能生成新颖、独特的文本，而较低的温度则更有可能生成常见或常规的文本

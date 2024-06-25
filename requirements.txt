@@ -1,0 +1,13 @@
+transformers>=4.40.0
+huggingface-hub>=0.23.0
+tokenizers>=0.15.0
+streamlit>=1.30.0
+torch>=2.1.0
+sentence_transformers>=2.4.0
+accelerate>=0.29.2
+langchain>=0.1.16
+langchainhub>=0.1.15
+langchain-community
+chromadb
+unstructured
+unstructured[docx]
