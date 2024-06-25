@@ -154,7 +154,10 @@ def init_ui_db():
                 split_doc = text_splitter.split_documents(data)
                 split_docs += split_doc
         with st.spinner(f"正在构建知识库...."):
-            db_save_path = os.path.join(config.get('db_save_path'), select_name)
+            db_save_path = config.get('db_save_path')
+            if not os.path.exists(db_save_path):
+                mkdir(db_save_path)
+            db_save_path = os.path.join(db_save_path, select_name)
             db = Chroma.from_documents(split_docs, st.session_state["embedding_extract"], persist_directory=db_save_path)
             db.persist()
             tips("知识库构建成功！")
