@@ -12,8 +12,11 @@
 git clone
 ```
 ```
+// 手动修改项目文件夹名称为TaiLa_KnowledgeQuizSystem
+```
+```
 // 安装环境
-cd PRTS
+cd TaiLa_KnowledgeQuizSystem
 pip install -r requirements.py
 // 安装nltk所需内容
 python
