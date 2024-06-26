@@ -9,7 +9,7 @@
 ---
 ```
 // 克隆项目
-git clone
+git clone https://github.com/longkong39/longkong39-TaiLa_KnowledgeQuizSystem.git
 ```
 ```
 // 手动修改项目文件夹名称为TaiLa_KnowledgeQuizSystem
